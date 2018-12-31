@@ -58,3 +58,4 @@ ernie.owner.phone = 98745631;
 // console.log(ernie.owner);
 // console.log(ernie.activity);
 ernie.callOwner();
+ernie.callOwner();
