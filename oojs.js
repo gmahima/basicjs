@@ -57,5 +57,3 @@ ernie.owner = new Owner('Ashley', 9);
 ernie.owner.phone = 98745631;
 // console.log(ernie.owner);
 // console.log(ernie.activity);
-ernie.callOwner();
-ernie.callOwner();
