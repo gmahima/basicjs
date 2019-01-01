@@ -52,8 +52,8 @@ class Owner {
 
 }
 var ernie = new Pet('dog', 1, 'pug', 'woof');
-// ernie.speak();
+ ernie.speak();
 ernie.owner = new Owner('Ashley', 9);
 ernie.owner.phone = 98745631;
-// console.log(ernie.owner);
-// console.log(ernie.activity);
+ console.log(ernie.owner);
+ console.log(ernie.activity);
