@@ -45,3 +45,19 @@ switch(day) {
   break;
 
 }
+var isTrue = false;
+var result = isTrue ? 'true' : 'false';
+console.log(result)
+
+
+
+let and = true && 1 && 'cow'; //cow
+and = false && 1 && true; // false
+and = 0 && 1 && true; // 0
+let or = 1 || 0; //1
+ or = 0 || 1; //1
+ or = 0 || false; //false
+
+
+
+console.log (or)
