@@ -2,7 +2,8 @@
 //
 //
 //   const message = `${username} has ${badgeCount} badges and ${points} points`;
-// }
+//
+//}
 const https = require('https');
 const http = require('http');
 function printErrorMessage(error) {

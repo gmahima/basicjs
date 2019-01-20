@@ -5,7 +5,8 @@ class Pet {
     this.animal = animal;
     this.age = age;
     this.breed = breed;
-    this.sound = sound;
+    this.sound = sound
+    this.color = color;
   }
   get activity () {
     const today = new Date();
@@ -51,7 +52,7 @@ class Owner {
 
 
 }
-var ernie = new Pet('dog', 1, 'pug', 'woof');
+var ernie = new Pet('dog', 1, 'pug', 'woof', 'black');
  ernie.speak();
 ernie.owner = new Owner('Ashley', 9);
 ernie.owner.phone = 98745631;
